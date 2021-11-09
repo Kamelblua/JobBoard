@@ -1,0 +1,45 @@
+html,
+body {
+	background: var(--light);
+	color: var(--dark);
+	margin: 0px;
+
+	position: relative;
+	min-height: 100vh;
+
+	font-family: "Roboto";
+}
+
+* {
+	color: inherit;
+	box-sizing: border-box;
+}
+
+.dark {
+	background: var(--dark);
+	color: var(--light);
+
+	--text: var(--light);
+	--bg: var(--dark);
+}
+
+.light {
+	background: var(--light);
+	color: var(--dark);
+
+	--text: var(--dark);
+	--bg: var(--light);
+}
+
+a,
+a:visited,
+a:link {
+	display: inline-block;
+	color: var(--text);
+	text-decoration: none;
+	width: max-content;
+}
+
+a:hover {
+	text-decoration: underline;
+}
