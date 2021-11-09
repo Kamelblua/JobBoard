@@ -27,8 +27,8 @@ _(ce fichier n'étant pas présent lors de la première copie du repo, il vous f
 ```
 REACT_APP_SERVER_URL=http://localhost:8000
 ```
-Variables d'environnement importantes à modifier dans /server
-_(ce fichier n'étant pas présent lors de la première copie du repo, il vous faudra faire une copie de /server/.env.example)_
+Variables d'environnement importantes à modifier dans /api
+_(ce fichier n'étant pas présent lors de la première copie du repo, il vous faudra faire une copie de /api/.env.example)_
 JTW Token [(comment génerer un JTW token)](https://github.com/AndrewCarterUK/CryptoKey)
 
 ```
