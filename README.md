@@ -114,7 +114,7 @@ The links have been created.
 Effectuer les migrations :
 
 ```
-$ php artisan migrate:fresh
+$ php artisan migrate:fresh --seed
 Dropped all tables successfully.
 Migration table created successfully.
 Migrating: ...
